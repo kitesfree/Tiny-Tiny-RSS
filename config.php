@@ -124,7 +124,7 @@
 	// *** Self-registrations by users ***
 	// ***********************************
 
-	define('ENABLE_REGISTRATION', true);
+	define('ENABLE_REGISTRATION', false);
 	// Allow users to register themselves. Please be aware that allowing
 	// random people to access your tt-rss installation is a security risk
 	// and potentially might lead to data loss or server exploit. Disabled
@@ -197,7 +197,7 @@
 	// if you experience weird errors and tt-rss failing to start, blank pages
 	// after login, or content encoding errors, disable it.
 
-	define('PLUGINS', 'auth_internal, note');
+	define('PLUGINS', 'auth_internal, note,api_newsplus,fever');
 	// Comma-separated list of plugins to load automatically for all users.
 	// System plugins have to be specified here. Please enable at least one
 	// authentication plugin here (auth_*).
