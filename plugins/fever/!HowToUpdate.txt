@@ -1,0 +1,6 @@
+Copied from ..\tinytinyrss-fever-plugin.git\fever\
+
+The tinytinyrss-fever-plugin.git is a submodule.
+
+Update:
+Pull from github in "tinytinyrss-fever-plugin.git" to update the init.php and copy it to here.
