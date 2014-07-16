@@ -4,3 +4,6 @@
 [submodule "plugins/tt-rss-newsplus-plugin.git"]
 	path = plugins/tt-rss-newsplus-plugin.git
 	url = https://github.com/hrk/tt-rss-newsplus-plugin.git
+[submodule "ttrss-mobile.git"]
+	path = ttrss-mobile.git
+	url = https://github.com/mboinet/ttrss-mobile.git
