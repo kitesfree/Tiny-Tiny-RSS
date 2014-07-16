@@ -7,3 +7,12 @@
 [submodule "ttrss-mobile.git"]
 	path = ttrss-mobile.git
 	url = https://github.com/mboinet/ttrss-mobile.git
+[submodule "themes/reeder"]
+	path = themes/reeder
+	url = https://github.com/tschinz/tt-rss_reeder_theme.git
+[submodule "themes/feedly"]
+	path = themes/feedly
+	url = https://github.com/levito/tt-rss-feedly-theme.git
+[submodule "themes/clean-greader"]
+	path = themes/clean-greader
+	url = https://github.com/naeramarth7/clean-greader.git
