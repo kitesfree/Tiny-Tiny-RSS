@@ -1,0 +1,6 @@
+Copied from ..\tt-rss-newsplus-plugin.git\api_newsplus\init.php
+
+The tt-rss-newsplus-plugin.git is a submodule.
+
+Update:
+Pull from github in "tt-rss-newsplus-plugin.git" to update the init.php and copy it to here.
