@@ -1,3 +1,6 @@
 [submodule "plugins/tinytinyrss-fever-plugin.git"]
 	path = plugins/tinytinyrss-fever-plugin.git
 	url = https://github.com/dasmurphy/tinytinyrss-fever-plugin.git
+[submodule "plugins/tt-rss-newsplus-plugin.git"]
+	path = plugins/tt-rss-newsplus-plugin.git
+	url = https://github.com/hrk/tt-rss-newsplus-plugin.git
