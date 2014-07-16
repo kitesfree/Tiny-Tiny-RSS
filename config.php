@@ -184,6 +184,12 @@
 	define('CHECK_FOR_NEW_VERSION', true);
 	// Check for new versions of tt-rss automatically.
 
+	define('DETECT_ARTICLE_LANGUAGE', false);
+	// Detect article language when updating feeds, presently this is only
+	// used for hyphenation. This may increase amount of CPU time used by 
+	// update processes, disable if necessary (i.e. you are being billed
+	// for CPU time).
+
 	define('ENABLE_GZIP_OUTPUT', false);
 	// Selectively gzip output to improve wire performance. This requires
 	// PHP Zlib extension on the server.
@@ -192,6 +198,7 @@
 	// after login, or content encoding errors, disable it.
 
 	define('PLUGINS', 'auth_internal, note');
+	// Comma-separated list of plugins to load automatically for all users.
 	// System plugins have to be specified here. Please enable at least one
 	// authentication plugin here (auth_*).
 	// Users may enable other user plugins from Preferences/Plugins but may not
