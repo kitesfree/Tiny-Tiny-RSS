@@ -16,3 +16,6 @@
 [submodule "themes/clean-greader"]
 	path = themes/clean-greader
 	url = https://github.com/naeramarth7/clean-greader.git
+[submodule "themes/paper"]
+	path = themes/paper
+	url = https://github.com/DarkPreacher/tt-rss-theme-paper.git
