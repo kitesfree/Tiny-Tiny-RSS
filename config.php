@@ -3,13 +3,20 @@
 	// *** Database configuration (important!) ***
 	// *******************************************
 
-	define('DB_TYPE', "pgsql"); // or mysql
-	define('DB_HOST', getenv('OPENSHIFT_POSTGRESQL_DB_HOST'));
-	define('DB_USER', getenv('OPENSHIFT_POSTGRESQL_DB_USERNAME'));
-	define('DB_NAME', getenv('OPENSHIFT_APP_NAME'));
-	define('DB_PASS', getenv('OPENSHIFT_POSTGRESQL_DB_PASSWORD'));
-	define('DB_PORT', getenv('OPENSHIFT_POSTGRESQL_DB_PORT')); // usually 5432 for PostgreSQL, 3306 for MySQL
-
+	//define('DB_TYPE', "pgsql"); // or mysql
+	//define('DB_HOST', getenv('OPENSHIFT_POSTGRESQL_DB_HOST'));
+	//define('DB_USER', getenv('OPENSHIFT_POSTGRESQL_DB_USERNAME'));
+	//define('DB_NAME', getenv('OPENSHIFT_APP_NAME'));
+	//define('DB_PASS', getenv('OPENSHIFT_POSTGRESQL_DB_PASSWORD'));
+	//define('DB_PORT', getenv('OPENSHIFT_POSTGRESQL_DB_PORT')); // usually 5432 for PostgreSQL, 3306 for MySQL
+	
+	define('DB_TYPE', "mysql");
+	define('DB_HOST', getenv('OPENSHIFT_MYSQL_DB_HOST'));	
+	define('DB_USER', getenv('OPENSHIFT_MYSQL_DB_USERNAME'));	
+	define('DB_NAME', getenv('OPENSHIFT_APP_NAME'));	
+	define('DB_PASS', getenv('OPENSHIFT_MYSQL_DB_PASSWORD'));	
+	define('DB_PORT', getenv('OPENSHIFT_MYSQL_DB_PORT')); // usually 5432 for PostgreSQL, 3306 for MySQL	
+		
 	define('MYSQL_CHARSET', 'UTF8');
 	// Connection charset for MySQL. If you have a legacy database and/or experience
 	// garbage unicode characters with this option, try setting it to a blank string.
